@@ -1,16 +1,11 @@
 {
-  {
+ {
   "version": 2,
   "builds": [
-    {
-      "src": "api/analyze.js",
-      "use": "@vercel/node"
-    }
+    { "src": "api/analyze.js", "use": "@vercel/node" }
   ],
   "routes": [
-    {
-      "src": "/api/analyze",
-      "dest": "api/analyze.js"
-    }
+    { "src": "/api/analyze", "dest": "api/analyze.js" }
   ]
 }
+
